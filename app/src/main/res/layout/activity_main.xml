@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.wangyeming.androidcamerademo.MainActivity">
+
+    <Button
+        android:id="@+id/camera_route_camera2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="拍照"/>
+    <Button
+        android:id="@+id/ppp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="paizhao"
+        />
+    <Button
+        android:id="@+id/lx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录像"
+        />
+    <TextView
+        android:id="@+id/camera_image_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件名"/>
+
+    <ImageView
+        android:id="@+id/camera_image_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
